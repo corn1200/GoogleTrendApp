@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="홈" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="탐색" />
+        <item
+            android:id="@+id/nav_hot_keyword"
+            android:icon="@drawable/ic_hot_keyword"
+            android:title="인기 급상승 검색어" />
+        <item
+            android:id="@+id/nav_years_keyword"
+            android:icon="@drawable/ic_years_keyword"
+            android:title="올해의 검색어" />
+        <item
+            android:id="@+id/nav_subscribe"
+            android:icon="@drawable/ic_subscribe"
+            android:title="구독" />
+    </group>
+    <item android:title="TODO">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="도움말" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="의견 보내기" />
+        </menu>
+    </item>
+</menu>
